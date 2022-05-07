@@ -1,0 +1,77 @@
+.links
+{
+    list-style: none;
+    display: inline;
+    font-size: 40px;
+    margin: 100px;
+    background-color: black;
+}
+
+.menu1 
+{
+    background-color: black;
+    height: 50px;
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+  right:0px;
+    top: 0px;
+    cursor: pointer;
+    display: inline;
+}
+
+#menu
+{
+    color: black;
+}
+
+div
+{
+    background-color: black;
+}
+
+#bg{
+    background-color: crimson;
+}
+
+#text {
+    color: white;
+    font-size: 20px;
+}
+
+body
+{
+    scroll-behavior: smooth;
+    background: linear-gradient(#ff5454 0%, #ffd454 100%);
+}
+
+#gif 
+{
+    width: 50%;
+}
+
+.images
+{
+    width: 20%;
+}
+
+.heading 
+{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#grids
+{
+    margin-top: 100px;
+}
+
+.size
+{
+    height: 80px;
+}
+
+#slides
+{
+    margin-top: 100px;
+}

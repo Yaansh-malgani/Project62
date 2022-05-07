@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body>
+    <center>
+    <div id="menu">
+        <ul class="menu1">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grids">Grid View</a></li>
+            <li class="links"><a href="#slides">Slide View</a></li>
+        </ul>
+        <br><br><br>
+    </div>
+        <section id="home">
+            <img class="home" id="gif" src="flowers.gif">
+        </section>
+
+
+        <section id="grids">
+            <h1 class="heading">Grid Gallery</h1>
+        <span>
+            <img class="images" src="blue.jpg">
+            <img class="images" src="Orange.png">
+            <img class="images" src="Pink tulip.jpg">
+            <img class="images" src="purple.jpg">
+        </span>
+        <img class="images" src="Red rose.jpg">
+            <img class="images" src="violet.jpg">
+            <img class="images" src="White.jpg">
+        </section>
+
+
+        <section id="slides">
+            <h1 class="heading">Sliding Gallery</h1>
+            
+            <div id="mycarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active" id="bg">
+                        <center>
+                            <img class="img-responsive size" src="blue.jpg">
+                            <div class="carousel-content">
+                                
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="yellow.jpg">
+                            <div class="carousel-content">
+                                
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="Pink tulip.jpg">
+                            <div class="carousel-content">
+                                
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="purple.jpg">
+                            <div class="carousel-content">
+                            
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="Red rose.jpg">
+                            <div class="carousel-content">
+                            
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="violet.jpg">
+                            <div class="carousel-content ">
+                                <p id="text">Daffodils</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img id="img-responsive size" src="White.jpg">
+                            <div class="carousel-content ">
+                                
+                            </div>
+                        </center>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left">
+                        </span>
+                    </a>
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right">
+                        </span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                        <li data-target="#mycarousel" data-slide-to="5"></li>
+                        <li data-target="#mycarousel" data-slide-to="6"></li>
+                        <li data-target="#mycarousel" data-slide-to="7"></li>
+                        
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </center>
+
+    
+</body>
+</html>
